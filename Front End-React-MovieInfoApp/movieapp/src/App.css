@@ -1,0 +1,154 @@
+
+body {
+  color: rgb(242,221,204);
+}
+
+.header {
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.header img {
+  padding-left: 20px;
+  height: 150px;
+  width: 180px;
+}
+
+.header .title-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0; 
+  font-family: cursive;
+  font-size: 46px;
+  color: rgb(242,221,204);
+}
+
+.Nav {
+  background-color: grey;
+  width: 100%;
+  padding: 5px 0;
+  /*box-sizing: border-box;*/
+}
+
+.Nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.Nav ul li {
+ margin-left: 30px;
+}
+
+.Nav ul a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+}
+
+.Nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  /*background-color: rgb(39, 37, 47);*/
+  /*background-color: #1D2439;*/
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-image: url(/Users/joshuahernandez/MovieInfoApp/movieapp/src/images/matrix.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*height: 100vh;*/
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  /*min-height: 100vh;*/
+  width: auto;
+  height: auto;
+}
+
+.container img {
+  height: 2%;
+  width: 250px;
+  padding-bottom: 10px;
+}
+
+.image {
+  padding-top: 20px;
+}
+
+.AboutMe {
+  background-color: #1D2439;
+  height: 100vh;
+  padding: 20px;
+}
+
+.AboutMe img {
+  height: 150px;
+  width: 200px;
+}
+
+.Contact {
+  background-color: #1D2439;
+  height: 100vh;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid #202126;
+  border-radius: 5px;
+}
+
+button {
+  align-self: left;
+  width: fit-content;
+}
+
+.Contact img {
+  height: 150px;
+  width: 200px;
+}
+
+.MovieGallery {
+  background-color: #1D2439;
+  height: 100vh;
+  padding: 20px;
+}
+
+.MovieGallery img {
+  height: 150px;
+  width: 200px;
+}
